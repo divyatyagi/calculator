@@ -31,7 +31,7 @@ break;
 
 case 3:
 res=divide(num1,num2);
-printf("\n%d",res);
+printf("\n%f",res);
 break;
 
 case 4:
@@ -51,5 +51,9 @@ return num1+num2;
 
 int sub(int num1,int num2){
 	return num1-num2;
+}
+
+float divide(int num1,int num2){
+	return num1/num2;
 }
 
